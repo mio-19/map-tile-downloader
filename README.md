@@ -56,7 +56,7 @@ Adding a New Map Source: Simply add a new key-value pair to the JSON file with t
 
 		python src/TileDL.py
 	
-	The application will start a local server at http://localhost:5000.
+	The application will start a local server at http://127.0.0.1:5000.
 	- Alternatively you may create a Batch file "StartMap.bat" to launch from windows:
  - 		@echo off
 		cd /d C:\(extractlocation)\map-tile-downloader
